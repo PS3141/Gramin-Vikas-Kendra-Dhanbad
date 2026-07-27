@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO: Replace the title and meta description with your NGO's info
+       ============================================================ -->
+  <title>Gramin Vikas Kendra, Dhanbad | Empowering Communities</title>
+  <meta name="description"
+    content="Gramin Vikas Kendra, Dhanbad is dedicated to uplifting underprivileged communities through education, healthcare, and sustainable development." />
+  <meta name="keywords" content="NGO, charity, donate, volunteer, community, education, healthcare" />
+
+  <!-- Open Graph (for social media sharing) -->
+  <meta property="og:title" content="Gramin Vikas Kendra, Dhanbad | Empowering Communities" />
+  <meta property="og:description"
+    content="Join us in making a difference. Donate, volunteer, and help change lives." />
+  <meta property="og:type" content="website" />
+  <!-- REPLACE: og:image with your NGO banner image URL -->
+  <!-- <meta property="og:image" content="images/og-banner.jpg" /> -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons (for social icons, etc.) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- REPLACE: Add your favicon here -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+</head>
+
+<body>
+
+  <!-- ============================================================
+       STICKY NAVIGATION BAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="nav-container">
+
+      <!-- Logo / NGO Name -->
+      <a href="#home" class="nav-logo" aria-label="Home">
+        <!-- REPLACE: Change "HopeForward" to your NGO name -->
+        <!-- REPLACE: You can also add a logo image here -->
+        <img src="images/LOGO.png" alt="Logo" class="logo-image" />
+        <span class="logo-text">GVK DHANBAD</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active" data-i18n="nav-home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav-about">About</a></li>
+        <li><a href="#activities" class="nav-link" data-i18n="nav-activities">Activities</a></li>
+        <li><a href="#team" class="nav-link" data-i18n="nav-team">Team</a></li>
+        <li><a href="#gallery" class="nav-link" data-i18n="nav-gallery">Gallery</a></li>
+        <li><a href="#volunteer" class="nav-link" data-i18n="nav-volunteer">Volunteer</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav-contact">Contact</a></li>
+        <li><a href="#donate" class="nav-link btn-donate-nav" data-i18n="nav-donate">Donate</a></li>
+      </ul>
+
+      <!-- Language Switcher -->
+      <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Language Switcher">
+        <!-- Buttons are injected by translations.js -->
+      </div>
+
+      <!-- Hamburger Menu Button (Mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       SECTION 1: HERO / HOME
+       ============================================================ -->
+  <section id="home" class="hero" aria-label="Hero Section">
+    <!-- Background overlay for text readability -->
+    <div class="hero-overlay"></div>
+
+    <!-- REPLACE: Set background image in style.css under .hero -->
+    <!-- Currently using a solid gradient background as placeholder -->
+
+    <div class="hero-content">
+
+      <!-- NGO Name Badge -->
+      <span class="hero-badge" data-i18n="hero-badge">Est. 2008 · Registered NGO</span>
+
+      
+
+      <!-- REPLACE: Your NGO's main name -->
+      <h1 class="hero-title" data-i18n="hero-title">GRAMIN VIKAS KENDRA, DHANBAD</h1>
+
+      <!-- REPLACE: Your NGO's tagline/motto -->
+      <p class="hero-tagline" data-i18n="hero-tagline">Empowering Communities, Changing Lives, Building Futures</p>
+
+      <!-- REPLACE: Short intro text about your NGO -->
+      <p class="hero-description" data-i18n="hero-description">
+        We are a registered non-governmental organization working tirelessly to uplift underprivileged communities
+        through education, healthcare, and sustainable development programs. Together, we can make a difference.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero-buttons">
+        <!-- Smooth scroll to Donate section -->
+        <a href="#donate" class="btn btn-primary" id="hero-donate-btn">
+          <i class="fas fa-heart" aria-hidden="true"></i> <span data-i18n="hero-btn-donate">Donate Now</span>
+        </a>
+        <!-- Smooth scroll to Volunteer section -->
+        <a href="#volunteer" class="btn btn-outline" id="hero-volunteer-btn">
+          <i class="fas fa-hands-helping" aria-hidden="true"></i> <span data-i18n="hero-btn-volunteer">Become a Volunteer</span>
+        </a>
+      </div>
+
+      <!-- Quick Stats -->
+      <div class="hero-stats">
+        <!-- REPLACE: Update these numbers with your actual stats -->
+        <div class="stat-item">
+          <span class="stat-number" data-target="1200">0</span>
+          <span class="stat-label" data-i18n="stat-lives">Lives Impacted</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="45">0</span>
+          <span class="stat-label" data-i18n="stat-projects">Projects Done</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="70">0</span>
+          <span class="stat-label" data-i18n="stat-volunteers">Volunteers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="8">0</span>
+          <span class="stat-label" data-i18n="stat-districts">Districts Covered</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll Down Indicator -->
+     <br><br>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+      <span class="scroll-text" data-i18n="scroll-down">Scroll Down</span>
+      <i class="fas fa-chevron-down" aria-hidden="true"></i>
+    </a>
+
+  </section>
+
+<div class="slider-container">
+  <div class="slider-track">
+    <!-- Apni images yahan dalein -->
+    <div class="slide"><img src="images/Achivement 1.jpeg" alt="Image 1"></div>
+    <div class="slide"><img src="images/Environment 1.jpeg" alt="Image 2"></div>
+    <div class="slide"><img src="images/Achivement 2.jpeg" alt="Image 3"></div>
+    <div class="ngo slide img"><img src="images/NGO team.jpeg" alt="Image 4"></div>
+    
+    <!-- Smooth loop ke liye images ko repeat karein -->
+    <div class="slide"><img src="images/Achivement 1.jpeg" alt="Image 1"></div>
+    <div class="slide"><img src="images/Environment 1.jpeg" alt="Image 2"></div>
+  </div>
+</div>
+
+
+  <!-- ============================================================
+       SECTION 2: ABOUT NGO
+       ============================================================ -->
+  <section id="about" class="section about-section" aria-label="About Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="about-badge">Who We Are</span>
+        <h2 class="section-title"><span class="highlight">GRAMIN VIKAS KENDRA, DHANBAD</span></h2>
+        <!-- REPLACE: Section subtitle -->
+        <p class="section-subtitle" data-i18n="about-subtitle">Dedicated to creating lasting change in communities that need it most.</p>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- About Image -->
+        <div class="about-image-wrapper">
+          <!-- REPLACE: Add your NGO's image in the images/ folder and update src -->
+          <div class="about-image-placeholder" aria-label="NGO team photo placeholder">
+            
+            <img src="images/NGO team.jpeg" alt="GVK NGO Team" />
+            
+          </div>
+          <!-- Registration badge overlay -->
+          <div class="about-badge-overlay">
+            <!-- REPLACE: Your NGO registration number -->
+            <strong>Reg. No:</strong> 625/2008-09
+          </div>
+        </div>
+
+        <!-- About Content -->
+        <div class="about-content">
+
+          <!-- REPLACE: Your about paragraphs -->
+          <p class="about-text" data-i18n="about-text-1">
+            Gramin Vikash Kendra Dhanbad is a non-governmental organization (NGO) based in Dhanbad, Jharkhand, dedicated to social development and community welfare.
+            Established with the vision of uplifting underprivileged and rural communities, the organization actively works in the fields of education, social awareness, skill development, and community support services.
+          </p>
+          <p class="about-text" data-i18n="about-text-2">
+            The organization focuses on supporting children, students, women, and economically weaker sections of society by promoting educational assistance, awareness programs, and community development activities.
+            Gramin Vikash Kendra Dhanbad believes in building a self-reliant and progressive society through collective participation, social responsibility, and sustainable development.
+          </p>
+
+          <!-- Mission, Vision, Objectives Tabs -->
+          <div class="mvv-tabs">
+            <div class="tab-buttons" role="tablist">
+              <button class="tab-btn active" data-tab="mission" role="tab" aria-selected="true"
+                id="tab-mission" data-i18n="tab-mission">Mission</button>
+              <button class="tab-btn" data-tab="vision" role="tab" aria-selected="false"
+                id="tab-vision" data-i18n="tab-vision">Vision</button>
+              <button class="tab-btn" data-tab="objectives" role="tab" aria-selected="false"
+                id="tab-objectives" data-i18n="tab-objectives">Objectives</button>
+            </div>
+
+            <!-- REPLACE: Mission content -->
+            <div class="tab-content active" id="content-mission" role="tabpanel" aria-labelledby="tab-mission">
+              <div class="tab-inner">
+                <i class="fas fa-bullseye tab-icon" aria-hidden="true"></i>
+                <div>
+                  <h3 data-i18n="mission-heading">Our Mission</h3>
+                  <p data-i18n="mission-text">
+                   Mission of organization is to give equal opportunity to all citizens in term of good education, good health services, skills and livelihood for made people self reliance and live with peace and harmony.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- REPLACE: Vision content -->
+            <div class="tab-content" id="content-vision" role="tabpanel" aria-labelledby="tab-vision">
+              <div class="tab-inner">
+                <i class="fas fa-eye tab-icon" aria-hidden="true"></i>
+                <div>
+                  <h3 data-i18n="vision-heading">Our Vision</h3>
+                  <p data-i18n="vision-text">
+                   Gramin Vikas Kendra Dhanbad wants to create an egalitarian society where not remains hunger, exploitation, disparity on the basis of caste, creed, colour, religion etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- REPLACE: Objectives content -->
+            <div class="tab-content" id="content-objectives" role="tabpanel" aria-labelledby="tab-objectives">
+              <div class="tab-inner objectives-list">
+                <i class="fas fa-list-check tab-icon" aria-hidden="true"></i>
+                <div>
+                  <h3 data-i18n="objectives-heading">Our Objectives</h3>
+                  <ul>
+                    <!-- REPLACE: Your NGO's specific objectives -->
+                    <li data-i18n="obj-1">To promote educational support services in rural and backward areas</li>
+                    <li data-i18n="obj-2">To work for social welfare and community development</li>
+                    <li data-i18n="obj-3">To support children through educational initiatives and awareness programs</li>
+                    <li data-i18n="obj-4">To encourage skill development and self-reliance among youth</li>
+                    <li data-i18n="obj-5">To contribute towards the upliftment of economically weaker communities</li>
+                    <li data-i18n="obj-6">To organize social service and welfare activities for public benefit</li>
+                    <li data-i18n="obj-7">To promote awareness related to education, health, and social development</li>
+                    <li data-i18n="obj-8">To support inclusive growth and equal opportunities in society</li>
+                    <li data-i18n="obj-9">To work towards sustainable rural development and empowerment</li>
+                    <li data-i18n="obj-10">To encourage humanitarian and community participation activities</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 3: ACTIVITIES / PROJECTS
+       ============================================================ -->
+  <section id="activities" class="section activities-section bg-light" aria-label="Activities Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge">What We Do</span>
+        <h2 class="section-title">Our <span class="highlight">Activities</span> & Projects</h2>
+        <!-- REPLACE: Activities subtitle -->
+        <p class="section-subtitle">Driving impact across education, health, environment, and livelihood sectors.</p>
+      </div>
+
+      <!-- Activity Cards Grid -->
+      <!-- REPLACE: Update each card with your real activities/projects -->
+      <div class="activities-grid" role="list">
+
+        <!-- Activity Card 1 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-education.jpg" alt="Education Program"> -->
+            <div class="card-image-placeholder education">
+              <i class="fas fa-book-open fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge" data-i18n="act1-badge">Education</span>
+          </div>
+          <div class="card-body">
+            <!-- REPLACE: Activity name -->
+            <h3 class="card-title" data-i18n="act1-title">Bright Futures Education Program</h3>
+            <!-- REPLACE: Activity description -->
+            <p class="card-text" data-i18n="act1-text">
+              Providing free tutoring, study materials, and scholarships to over 300 underprivileged children
+              in rural areas, helping them stay in school and achieve academic excellence.
+            </p>
+            <div class="card-meta">
+              <!-- REPLACE: Your program stats -->
+              <span class="meta-tag"><i class="fas fa-users"></i> <span data-i18n="act1-meta1">300+ Beneficiaries</span></span>
+              <span class="meta-tag"><i class="fas fa-map-marker-alt"></i> <span data-i18n="act1-meta2">5 Villages</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Activity Card 2 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-health.jpg" alt="Healthcare Camp"> -->
+            <div class="card-image-placeholder health">
+              <i class="fas fa-heartbeat fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge health-badge" data-i18n="act2-badge">Healthcare</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-i18n="act2-title">Community Health Camps</h3>
+            <p class="card-text" data-i18n="act2-text">
+              Organizing monthly free medical checkup camps, distributing medicines, and providing
+              health awareness workshops to communities lacking access to quality healthcare facilities.
+            </p>
+            <div class="card-meta">
+              <span class="meta-tag"><i class="fas fa-users"></i> <span data-i18n="act2-meta1">500+ Served</span></span>
+              <span class="meta-tag"><i class="fas fa-calendar"></i> <span data-i18n="act2-meta2">Monthly</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Activity Card 3 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-women.jpg" alt="Women Empowerment"> -->
+            <div class="card-image-placeholder women">
+              <i class="fas fa-female fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge women-badge" data-i18n="act3-badge">Women Empowerment</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-i18n="act3-title">Women Skill Development</h3>
+            <p class="card-text" data-i18n="act3-text">
+              Running vocational training programs in tailoring, handicrafts, and digital literacy,
+              enabling women to become financially independent and self-reliant contributors to their families.
+            </p>
+            <div class="card-meta">
+              <span class="meta-tag"><i class="fas fa-users"></i> <span data-i18n="act3-meta1">150+ Women</span></span>
+              <span class="meta-tag"><i class="fas fa-certificate"></i> <span data-i18n="act3-meta2">Certified</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Activity Card 4 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-environment.jpg" alt="Environment"> -->
+            <div class="card-image-placeholder environment">
+              <i class="fas fa-tree fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge env-badge" data-i18n="act4-badge">Environment</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-i18n="act4-title">Green Earth Initiative</h3>
+            <p class="card-text" data-i18n="act4-text">
+              Leading tree plantation drives, clean-up campaigns, and environmental education programs
+              to foster a culture of sustainability and ecological responsibility in local communities.
+            </p>
+            <div class="card-meta">
+              <span class="meta-tag"><i class="fas fa-leaf"></i> <span data-i18n="act4-meta1">5000+ Trees</span></span>
+              <span class="meta-tag"><i class="fas fa-globe"></i> <span data-i18n="act4-meta2">Eco-Impact</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Activity Card 5 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-food.jpg" alt="Food Distribution"> -->
+            <div class="card-image-placeholder food">
+              <i class="fas fa-utensils fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge food-badge">Food Aid</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Nutrition & Food Support</h3>
+            <p class="card-text">
+              Distributing nutritional food kits to migrant workers, daily-wage laborers, and senior
+              citizens during emergencies and on a regular basis to combat food insecurity.
+            </p>
+            <div class="card-meta">
+              <span class="meta-tag"><i class="fas fa-box"></i> 1000+ Kits</span>
+              <span class="meta-tag"><i class="fas fa-heart"></i> Ongoing</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Activity Card 6 -->
+        <article class="activity-card" role="listitem">
+          <div class="card-image-wrapper">
+            <!-- REPLACE: <img src="images/activity-digital.jpg" alt="Digital Literacy"> -->
+            <div class="card-image-placeholder digital">
+              <i class="fas fa-laptop fa-3x" aria-hidden="true"></i>
+            </div>
+            <span class="card-badge digital-badge" data-i18n="act6-badge">Digital</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-i18n="act6-title">Digital Literacy Drive</h3>
+            <p class="card-text" data-i18n="act6-text">
+              Teaching basic computer skills, internet safety, and digital financial literacy to youth
+              and adults in underserved areas to bridge the digital divide effectively.
+            </p>
+            <div class="card-meta">
+              <span class="meta-tag"><i class="fas fa-users"></i> <span data-i18n="act6-meta1">200+ Students</span></span>
+              <span class="meta-tag"><i class="fas fa-wifi"></i> <span data-i18n="act6-meta2">Tech-Enabled</span></span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: EVENTS & ACHIEVEMENTS (NEW)
+       To add a new event: copy one .event-slide block and edit the
+       content inside. Remove placeholders and add your own images.
+       ============================================================ -->
+  <section id="events" class="section events-section" aria-label="Events and Achievements Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="events-badge">Our Journey</span>
+        <h2 class="section-title" data-i18n="events-title">Events &amp; <span class="highlight">Achievements</span></h2>
+        <p class="section-subtitle" data-i18n="events-subtitle">Milestones that celebrate our community's growth and our mission in action.</p>
+      </div>
+
+      <div class="events-slider-wrapper">
+        <div class="events-slider" id="eventsSlider" role="region" aria-label="Events Slider">
+
+          <!-- ====================================================
+               EVENT SLIDE 1 — REPLACE with your event details
+               ==================================================== -->
+          <div class="event-slide" role="group" aria-label="Event 1">
+            <div class="event-content">
+              <span class="event-date-badge"><i class="fas fa-calendar-alt"></i> March 2024</span>
+              <!-- REPLACE: Event title -->
+              <h3 class="event-title" data-i18n="event1-title">Annual Community Health Camp</h3>
+              <!-- REPLACE: 2–4 line event description -->
+              <p class="event-desc" data-i18n="event1-desc">Organized a free medical camp serving over 500 families across 5 villages in Dhanbad district. Medical professionals volunteered their time to provide free consultations, medicines, and health awareness sessions for the community.</p>
+              <div class="event-tags">
+                <!-- REPLACE: Event location and stat -->
+                <span class="event-tag"><i class="fas fa-map-marker-alt"></i> Dhanbad</span>
+                <span class="event-tag"><i class="fas fa-users"></i> 500+ Beneficiaries</span>
+              </div>
+            </div>
+            <div class="event-image-wrap">
+              <!-- REPLACE: Uncomment and set your event image -->
+              <!-- <img src="images/event-1.jpg" alt="Health Camp 2024" loading="lazy"> -->
+              <div class="event-img-placeholder">
+                <i class="fas fa-hand-holding-medical fa-4x" aria-hidden="true"></i>
+                <p>Health Camp 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               EVENT SLIDE 2 — REPLACE with your event details
+               ==================================================== -->
+          <div class="event-slide" role="group" aria-label="Event 2">
+            <div class="event-content">
+              <span class="event-date-badge"><i class="fas fa-calendar-alt"></i> January 2024</span>
+              <h3 class="event-title" data-i18n="event2-title">Scholarship Distribution Ceremony</h3>
+              <p class="event-desc" data-i18n="event2-desc">Distributed scholarships to 80 meritorious students from economically weaker backgrounds, enabling them to continue their higher education. The ceremony was attended by local dignitaries and community leaders who joined us to celebrate academic achievement.</p>
+              <div class="event-tags">
+                <span class="event-tag"><i class="fas fa-map-marker-alt"></i> GVK Community Hall</span>
+                <span class="event-tag"><i class="fas fa-graduation-cap"></i> 80 Students</span>
+              </div>
+            </div>
+            <div class="event-image-wrap">
+              <!-- REPLACE: <img src="images/event-2.jpg" alt="Scholarship 2024" loading="lazy"> -->
+              <div class="event-img-placeholder">
+                <i class="fas fa-graduation-cap fa-4x" aria-hidden="true"></i>
+                <p>Scholarship 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               EVENT SLIDE 3 — REPLACE with your event details
+               ==================================================== -->
+          <div class="event-slide" role="group" aria-label="Event 3">
+            <div class="event-content">
+              <span class="event-date-badge"><i class="fas fa-calendar-alt"></i> November 2023</span>
+              <h3 class="event-title" data-i18n="event3-title">Green Earth Tree Plantation Drive</h3>
+              <p class="event-desc" data-i18n="event3-desc">More than 200 volunteers came together to plant 1,500 saplings across barren land in the Dhanbad region. This initiative is part of our long-term commitment to environmental sustainability and creating a greener future for upcoming generations.</p>
+              <div class="event-tags">
+                <span class="event-tag"><i class="fas fa-map-marker-alt"></i> Dhanbad District</span>
+                <span class="event-tag"><i class="fas fa-leaf"></i> 1,500 Trees Planted</span>
+              </div>
+            </div>
+            <div class="event-image-wrap">
+              <!-- REPLACE: <img src="images/event-3.jpg" alt="Tree Plantation 2023" loading="lazy"> -->
+              <div class="event-img-placeholder">
+                <i class="fas fa-seedling fa-4x" aria-hidden="true"></i>
+                <p>Tree Plantation 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               ADD MORE EVENTS HERE — copy a .event-slide block above
+               ==================================================== -->
+
+        </div><!-- /.events-slider -->
+
+        <!-- Slider Navigation -->
+        <div class="events-controls">
+          <button class="events-nav-btn" id="eventsPrev" aria-label="Previous event">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="events-dots" id="eventsDots" role="tablist" aria-label="Event slides"></div>
+          <button class="events-nav-btn" id="eventsNext" aria-label="Next event">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+      </div><!-- /.events-slider-wrapper -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: CERTIFICATES & RECOGNITION (NEW)
+       To add a certificate: copy one .cert-card block and fill in
+       the details. Add your certificate image to images/ folder.
+       ============================================================ -->
+  <section id="certificates" class="section certificates-section bg-light" aria-label="Certificates and Recognition Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="cert-badge">Awards &amp; Recognition</span>
+        <h2 class="section-title" data-i18n="cert-title">Certificates &amp; <span class="highlight">Recognition</span></h2>
+        <p class="section-subtitle" data-i18n="cert-subtitle">Proud acknowledgements of our commitment to community service and excellence.</p>
+      </div>
+
+      <div class="cert-slider-outer">
+        <div class="cert-track" id="certTrack">
+
+          <!-- ====================================================
+               CERTIFICATE 1 — REPLACE with your certificate details
+               ==================================================== -->
+          <div class="cert-card reveal-card" data-cert-img="" tabindex="0" role="button"
+            aria-label="View certificate: NGO Darpan Registration">
+            <div class="cert-img-wrap">
+              <!-- REPLACE: <img src="images/cert-1.jpg" alt="NGO Darpan Certificate"> -->
+              <div class="cert-img-placeholder">
+                <i class="fas fa-certificate fa-3x" aria-hidden="true"></i>
+              </div>
+              <div class="cert-view-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="cert-info">
+              <!-- REPLACE: Certificate name -->
+              <h4 data-i18n="cert1-title">NGO Darpan Registration</h4>
+              <!-- REPLACE: Issuing authority -->
+              <p data-i18n="cert1-auth">NITI Aayog, Government of India</p>
+              <span class="cert-year">2009</span>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               CERTIFICATE 2 — REPLACE with your certificate details
+               ==================================================== -->
+          <div class="cert-card reveal-card" data-cert-img="" tabindex="0" role="button"
+            aria-label="View certificate: 80G Tax Exemption">
+            <div class="cert-img-wrap">
+              <!-- REPLACE: <img src="images/cert-2.jpg" alt="80G Certificate"> -->
+              <div class="cert-img-placeholder">
+                <i class="fas fa-award fa-3x" aria-hidden="true"></i>
+              </div>
+              <div class="cert-view-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="cert-info">
+              <h4 data-i18n="cert2-title">80G Tax Exemption Certificate</h4>
+              <p data-i18n="cert2-auth">Income Tax Department, India</p>
+              <span class="cert-year">2017</span>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               CERTIFICATE 3 — REPLACE with your certificate details
+               ==================================================== -->
+          <div class="cert-card reveal-card" data-cert-img="" tabindex="0" role="button"
+            aria-label="View certificate: 12A Registration">
+            <div class="cert-img-wrap">
+              <!-- REPLACE: <img src="images/cert-3.jpg" alt="12A Certificate"> -->
+              <div class="cert-img-placeholder">
+                <i class="fas fa-shield-alt fa-3x" aria-hidden="true"></i>
+              </div>
+              <div class="cert-view-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="cert-info">
+              <h4 data-i18n="cert3-title">12A Registration Certificate</h4>
+              <p data-i18n="cert3-auth">Income Tax Department, India</p>
+              <span class="cert-year">2019</span>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               CERTIFICATE 4 — REPLACE with your certificate details
+               ==================================================== -->
+          <div class="cert-card reveal-card" data-cert-img="" tabindex="0" role="button"
+            aria-label="View certificate: Society Registration">
+            <div class="cert-img-wrap">
+              <!-- REPLACE: <img src="images/cert-4.jpg" alt="Society Registration"> -->
+              <div class="cert-img-placeholder">
+                <i class="fas fa-landmark fa-3x" aria-hidden="true"></i>
+              </div>
+              <div class="cert-view-icon"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="cert-info">
+              <h4 data-i18n="cert4-title">Society Registration</h4>
+              <p data-i18n="cert4-auth">Registrar of Societies, Jharkhand</p>
+              <span class="cert-year">2008</span>
+            </div>
+          </div>
+
+          <!-- ====================================================
+               ADD MORE CERTIFICATES HERE — copy a .cert-card above
+               ==================================================== -->
+
+        </div><!-- /.cert-track -->
+      </div><!-- /.cert-slider-outer -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 4: TEAM MEMBERS
+       ============================================================ -->
+  <section id="team" class="section team-section" aria-label="Team Section">
+    <div class="container">
+
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="team-badge">Our People</span>
+        <h2 class="section-title" data-i18n="team-title">Meet Our <span class="highlight">Team</span></h2>
+        <p class="section-subtitle" data-i18n="team-subtitle">The dedicated individuals who drive our mission forward every day.</p>
+      </div>
+
+      <div class="team-grid" role="list">
+
+        <!-- Team Member Card 1 -->
+        <!-- REPLACE: Replace all placeholder data with real member info -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-1.jpg" alt="Sudarshan Saw"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <!-- REPLACE: Add actual social profile links -->
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <!-- REPLACE: Member name -->
+            <h3 class="team-name">Sudarshan Saw</h3>
+            <!-- REPLACE: Member position/title -->
+            <p class="team-role" data-i18n="team1-role">President</p>
+            <!-- REPLACE: Short bio -->
+            <p class="team-bio" data-i18n="team1-bio">17+ years in social work Ph.D. in Rural Development. Visionary leader committed to community upliftment.</p>
+          </div>
+        </article>
+
+        <!-- Team Member Card 2 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-2.jpg" alt="Kamakhya Narayan Mahato"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Email" target="_blank" rel="noopener noreferrer"><i
+                  class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Kamakhya Narayan Mahato</h3>
+            <p class="team-role" data-i18n="team2-role">Secretary</p>
+            <p class="team-bio" data-i18n="team2-bio">Specialist in organizational management, secretarial compliance, project scheduling, and streamlining daily operations for community welfare projects.</p>
+          </div>
+        </article>
+
+        <!-- Team Member Card 3 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-3.jpg" alt="Kaushal Kishore Mahato "> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Kaushal Kishore Mahato </h3>
+            <p class="team-role" data-i18n="team3-role">Treasurer</p>
+            <p class="team-bio" data-i18n="team3-bio">Years of experience in NGO finance, compliance, and transparent fund management.</p>
+          </div>
+        </article>
+
+        <!-- Team Member Card 4 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-4.jpg" alt="Parshuram Turi"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Parshuram Turi</h3>
+            <p class="team-role" data-i18n="team4-role">Vice President</p>
+            <p class="team-bio" data-i18n="team4-bio">Specialist in field operations, volunteer coordination, and sustainable community development programs.</p>
+          </div>
+        </article>
+
+ <!-- Team Member Card 5 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-5.jpg" alt="Usha Devi"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Usha Devi</h3>
+            <p class="team-role" data-i18n="team5-role">Core Team Member</p>
+            <p class="team-bio" data-i18n="team5-bio">Specialist in grassroots community outreach, program management, and sustainable development initiatives for underprivileged youth.</p>
+          </div>
+        </article>
+
+ <!-- Team Member Card 6 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-6.jpg" alt="Krishna Rajak"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Krishna Rajak</h3>
+            <p class="team-role" data-i18n="team6-role">Core Team Member</p>
+            <p class="team-bio" data-i18n="team6-bio">Specialist in strategic NGO partnerships, resource mobilization, and executing large-scale social welfare campaigns.</p>
+          </div>
+        </article>
+        
+ <!-- Team Member Card 7 -->
+        <article class="team-card" role="listitem">
+          <div class="team-image-wrapper">
+            <!-- REPLACE: <img src="images/team-7.jpg" alt="Md. Inamul Haque"> -->
+            <div class="team-image-placeholder">
+              <i class="fas fa-user-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <div class="team-social">
+              <a href="#" class="team-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="team-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i
+                  class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3 class="team-name">Md. Inamul Haque</h3>
+            <p class="team-role" data-i18n="team7-role">Core Team Member</p>
+            <p class="team-bio" data-i18n="team7-bio">Specialist in educational curriculum design, vocational training programs and student mentorship.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 5: GALLERY
+       ============================================================ -->
+  <section id="gallery" class="section gallery-section bg-light" aria-label="Gallery Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="gallery-badge">Our Work in Pictures</span>
+        <h2 class="section-title" data-i18n="gallery-title">Photo <span class="highlight">Gallery</span></h2>
+        <p class="section-subtitle" data-i18n="gallery-subtitle">Moments that tell the story of our impact and journey.</p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- REPLACE: Replace each placeholder with real images -->
+        <!-- Each item: <img src="images/gallery-1.jpg" alt="Description"> -->
+
+        <div class="gallery-item" data-category="education">
+          <div class="gallery-placeholder">
+            <i class="fas fa-book-reader fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item1-p">Education Program</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item1-span">Education Drive 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item large" data-category="health">
+          <div class="gallery-placeholder health">
+            <i class="fas fa-stethoscope fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item2-p">Health Camp</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item2-span">Medical Camp 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="women">
+          <div class="gallery-placeholder women">
+            <i class="fas fa-hands-helping fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item3-p">Women Empowerment</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item3-span">Skill Training 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="environment">
+          <div class="gallery-placeholder environment">
+            <i class="fas fa-seedling fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item4-p">Tree Plantation</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item4-span">Green Earth Drive 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item large" data-category="education">
+          <div class="gallery-placeholder">
+            <i class="fas fa-graduation-cap fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item5-p">Scholarship Event</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item5-span">Scholarship Distribution 2024</span>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="food">
+          <div class="gallery-placeholder food">
+            <i class="fas fa-hand-holding-heart fa-3x" aria-hidden="true"></i>
+            <p data-i18n="gallery-item6-p">Food Distribution</p>
+          </div>
+          <div class="gallery-overlay">
+            <i class="fas fa-search-plus" aria-hidden="true"></i>
+            <span data-i18n="gallery-item6-span">Food Aid Camp 2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: OUR PARTNERS (NEW)
+       To add a partner: copy one .partner-item block below and
+       replace the placeholder with your partner logo/name.
+       If you have a logo image, use <img> inside .partner-logo-wrap.
+       ============================================================ -->
+  <section id="partners" class="section partners-section" aria-label="Our Partners Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="partners-badge">Collaborations</span>
+        <h2 class="section-title" data-i18n="partners-title">Our <span class="highlight">Partners</span></h2>
+        <p class="section-subtitle" data-i18n="partners-subtitle">Organizations and institutions who stand with us in creating lasting impact.</p>
+      </div>
+
+      <!-- Auto-scrolling partner logo strip -->
+      <!-- Logos duplicate to create seamless infinite scroll loop -->
+      <div class="partners-strip-wrapper">
+        <div class="partners-strip" id="partnersStrip">
+
+          <!-- ====================================================
+               PARTNER ITEMS — Add your partner logos here.
+               To add a partner: copy one .partner-item and edit it.
+               For real logos: replace .partner-logo-placeholder with
+               <img src="images/partner-logo.png" alt="Partner Name">
+               ==================================================== -->
+
+          <!-- Partner 1 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-1.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-building fa-2x" aria-hidden="true"></i>
+                <span>Partner One</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 2 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-2.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-university fa-2x" aria-hidden="true"></i>
+                <span>Partner Two</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 3 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-3.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-hospital fa-2x" aria-hidden="true"></i>
+                <span>Partner Three</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 4 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-4.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-hands-helping fa-2x" aria-hidden="true"></i>
+                <span>Partner Four</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 5 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-5.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
+                <span>Partner Five</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partner 6 -->
+          <div class="partner-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/partner-6.png" alt="Partner Name"> -->
+              <div class="partner-logo-placeholder">
+                <i class="fas fa-leaf fa-2x" aria-hidden="true"></i>
+                <span>Partner Six</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE PARTNERS HERE — copy a .partner-item block above -->
+
+          <!-- Duplicate set for seamless infinite loop -->
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-building fa-2x"></i><span>Partner One</span></div></div>
+          </div>
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-university fa-2x"></i><span>Partner Two</span></div></div>
+          </div>
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-hospital fa-2x"></i><span>Partner Three</span></div></div>
+          </div>
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-hands-helping fa-2x"></i><span>Partner Four</span></div></div>
+          </div>
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-globe fa-2x"></i><span>Partner Five</span></div></div>
+          </div>
+          <div class="partner-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder"><i class="fas fa-leaf fa-2x"></i><span>Partner Six</span></div></div>
+          </div>
+
+        </div><!-- /.partners-strip -->
+      </div><!-- /.partners-strip-wrapper -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: FEATURED IN (NEW)
+       Add newspaper/media logos where the NGO was featured.
+       Same instructions as Partners section above.
+       ============================================================ -->
+  <section id="featured" class="section featured-section bg-light" aria-label="Featured In Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="featured-badge">Media Coverage</span>
+        <h2 class="section-title" data-i18n="featured-title">Featured <span class="highlight">In</span></h2>
+        <p class="section-subtitle" data-i18n="featured-subtitle">Our work recognized by leading newspapers and media organizations.</p>
+      </div>
+
+      <div class="featured-strip-wrapper">
+        <div class="featured-strip" id="featuredStrip">
+
+          <!-- ====================================================
+               MEDIA ITEMS — Replace placeholders with real logos.
+               For real logos: replace .partner-logo-placeholder with
+               <img src="images/media-logo.png" alt="Media Name">
+               ==================================================== -->
+
+          <!-- Media 1 -->
+          <div class="partner-item featured-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/media-1.png" alt="Newspaper Name"> -->
+              <div class="partner-logo-placeholder featured-logo">
+                <i class="fas fa-newspaper fa-2x" aria-hidden="true"></i>
+                <span>Daily News</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Media 2 -->
+          <div class="partner-item featured-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/media-2.png" alt="Media Name"> -->
+              <div class="partner-logo-placeholder featured-logo">
+                <i class="fas fa-tv fa-2x" aria-hidden="true"></i>
+                <span>News Channel</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Media 3 -->
+          <div class="partner-item featured-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/media-3.png" alt="Magazine Name"> -->
+              <div class="partner-logo-placeholder featured-logo">
+                <i class="fas fa-book-open fa-2x" aria-hidden="true"></i>
+                <span>Weekly Magazine</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Media 4 -->
+          <div class="partner-item featured-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/media-4.png" alt="Online Portal Name"> -->
+              <div class="partner-logo-placeholder featured-logo">
+                <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
+                <span>Online Portal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Media 5 -->
+          <div class="partner-item featured-item">
+            <div class="partner-logo-wrap">
+              <!-- REPLACE: <img src="images/media-5.png" alt="Radio Name"> -->
+              <div class="partner-logo-placeholder featured-logo">
+                <i class="fas fa-broadcast-tower fa-2x" aria-hidden="true"></i>
+                <span>Radio Station</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADD MORE MEDIA HERE — copy a .partner-item block above -->
+
+          <!-- Duplicate set for seamless loop -->
+          <div class="partner-item featured-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder featured-logo"><i class="fas fa-newspaper fa-2x"></i><span>Daily News</span></div></div>
+          </div>
+          <div class="partner-item featured-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder featured-logo"><i class="fas fa-tv fa-2x"></i><span>News Channel</span></div></div>
+          </div>
+          <div class="partner-item featured-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder featured-logo"><i class="fas fa-book-open fa-2x"></i><span>Weekly Magazine</span></div></div>
+          </div>
+          <div class="partner-item featured-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder featured-logo"><i class="fas fa-globe fa-2x"></i><span>Online Portal</span></div></div>
+          </div>
+          <div class="partner-item featured-item" aria-hidden="true">
+            <div class="partner-logo-wrap"><div class="partner-logo-placeholder featured-logo"><i class="fas fa-broadcast-tower fa-2x"></i><span>Radio Station</span></div></div>
+          </div>
+
+        </div><!-- /.featured-strip -->
+      </div><!-- /.featured-strip-wrapper -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 6: DONATION
+       ============================================================ -->
+  <section id="donate" class="section donate-section" aria-label="Donate Section">
+    <div class="container">
+
+
+      <div class="section-header light-header">
+        <span class="section-badge badge-light" data-i18n="donate-badge">Make a Difference</span>
+        <h2 class="section-title" data-i18n="donate-title">Support Our <span class="highlight-light">Cause</span></h2>
+        <p class="section-subtitle light-text" data-i18n="donate-subtitle">Your contribution, no matter how small, creates a ripple of change.</p>
+      </div>
+
+      <div class="donate-grid">
+
+        <!-- Donation Info -->
+        <div class="donate-info">
+          <h3 data-i18n="donate-why">Why Donate?</h3>
+          <ul class="donate-benefits">
+            <!-- REPLACE: Update with your actual donation impact data -->
+            <li><i class="fas fa-check-circle"></i> <span data-i18n="donate-b1">₹500 provides stationery for one child for a year</span></li>
+            <li><i class="fas fa-check-circle"></i> <span data-i18n="donate-b2">₹1,000 covers medical aid for a family</span></li>
+            <li><i class="fas fa-check-circle"></i> <span data-i18n="donate-b3">₹2,500 funds a girl's scholarship for one term</span></li>
+            <li><i class="fas fa-check-circle"></i> <span data-i18n="donate-b4">₹5,000 supports vocational training for one woman</span></li>
+            <li><i class="fas fa-check-circle"></i> <span data-i18n="donate-b5">₹10,000 sponsors a health camp for 50+ people</span></li>
+          </ul>
+
+          <div class="tax-info">
+            <i class="fas fa-certificate" aria-hidden="true"></i>
+            <!-- REPLACE: Update 80G/12A details with your actual registration -->
+            <p data-i18n="donate-tax">Donations are eligible for <strong>80G tax exemption</strong>.<br />
+              80G Reg. No: <strong>AAAAG6642 DF20217</strong></p>
+          </div>
+        </div>
+
+        <!-- Bank Details Card -->
+        <div class="bank-details-card">
+          <div class="bank-header">
+            <i class="fas fa-university" aria-hidden="true"></i>
+            <h3 data-i18n="bank-title">Bank Transfer Details</h3>
+          </div>
+          <div class="bank-body">
+            <!-- REPLACE: All bank details below with your actual NGO bank info -->
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-acc-name">Account Name</span>
+              <!-- REPLACE: Your NGO registered name -->
+              <span class="bank-value">Gramin Vikash Kendra</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-acc-num">Account Number</span>
+              <!-- REPLACE: Your actual bank account number -->
+              <span class="bank-value">474810110000298</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-ifsc">IFSC Code</span>
+              <!-- REPLACE: Your bank's IFSC code -->
+              <span class="bank-value">BKID0004748</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-bank-name">Bank Name</span>
+              <!-- REPLACE: Your bank name -->
+              <span class="bank-value">Bank of India</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-branch">Branch</span>
+              <!-- REPLACE: Your bank branch -->
+              <span class="bank-value">Combined Building Hirapur, Dhanbad</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-acc-type">Account Type</span>
+              <span class="bank-value" data-i18n="bank-acc-type-val">Current Account</span>
+            </div>
+            <div class="bank-row">
+              <span class="bank-label" data-i18n="bank-contact">Contact number</span>
+              <!-- REPLACE: Your bank's contact number -->
+              <span class="bank-value">7079633406</span>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- UPI / QR Code Card -->
+        <div class="qr-card">
+          <h3 data-i18n="upi-title">Pay via UPI</h3>
+
+          <!-- QR Code Placeholder -->
+          <!-- REPLACE: Add your actual QR code image in images/ folder -->
+          <div class="qr-placeholder" aria-label="QR Code placeholder">
+            <div class="qr-border">
+              <i class="fas fa-qrcode fa-5x" aria-hidden="true"></i>
+              <!-- REPLACE: <img src="images/qr-code.png" alt="UPI QR Code" /> -->
+            </div>
+            <p class="qr-note" data-i18n="qr-note">Replace with your UPI QR Code</p>
+          </div>
+
+          <!-- REPLACE: Your UPI ID -->
+          <p class="upi-id"><strong>UPI ID:</strong> GVK@bankname</p>
+
+          <!-- Donation Method Buttons -->
+          <div class="payment-buttons">
+            <!-- REPLACE: Add actual payment gateway links or UPI deep links -->
+            <a href="#" class="btn btn-payment upi" id="upi-pay-btn" aria-label="Pay via UPI">
+              <i class="fas fa-mobile-alt"></i> <span data-i18n="btn-upi">UPI Pay</span>
+            </a>
+            <a href="#" class="btn btn-payment netbanking" id="netbanking-btn" aria-label="Net Banking">
+              <i class="fas fa-university"></i> <span data-i18n="btn-netbank">Net Banking</span>
+            </a>
+            <a href="#" class="btn btn-payment card" id="card-pay-btn" aria-label="Pay via Card">
+              <i class="fas fa-credit-card"></i> <span data-i18n="btn-card">Card Payment</span>
+            </a>
+          </div>
+
+          <p class="payment-note">
+            <i class="fas fa-shield-alt"></i>
+            <span data-i18n="payment-note">All transactions are 100% secure and encrypted.</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 7: VOLUNTEER
+       ============================================================ -->
+  <section id="volunteer" class="section volunteer-section" aria-label="Volunteer Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="volunteer-badge">Join the Movement</span>
+        <h2 class="section-title" data-i18n="volunteer-title">Become a <span class="highlight">Volunteer</span></h2>
+        <p class="section-subtitle" data-i18n="volunteer-subtitle">Your time and skills can transform lives. Be the change you wish to see.</p>
+      </div>
+
+      <div class="volunteer-grid">
+
+        <!-- Volunteer Info -->
+        <div class="volunteer-info">
+          <h3>Why Volunteer with Us?</h3>
+          <div class="volunteer-benefits">
+            <!-- REPLACE: Update volunteer perks with real info -->
+            <div class="benefit-item">
+              <i class="fas fa-certificate benefit-icon"></i>
+              <div>
+                <h4>Official Certificate</h4>
+                <p>Receive a recognized volunteer certificate upon completing 20+ hours.</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-users benefit-icon"></i>
+              <div>
+                <h4>Community Network</h4>
+                <p>Connect with 120+ like-minded volunteers and social change makers.</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-graduation-cap benefit-icon"></i>
+              <div>
+                <h4>Skill Development</h4>
+                <p>Gain real-world experience in social work, management, and communication.</p>
+              </div>
+            </div>
+            <div class="benefit-item">
+              <i class="fas fa-medal benefit-icon"></i>
+              <div>
+                <h4>Recognition & Awards</h4>
+                <p>Top volunteers are recognized annually at our community felicitation event.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Roles available -->
+          <div class="roles-section">
+            <h4 data-i18n="volunteer-need">We Need:</h4>
+            <div class="roles-tags">
+              <!-- REPLACE: Add your needed volunteer roles -->
+              <span class="role-tag" data-i18n="role-teacher">Teachers</span>
+              <span class="role-tag" data-i18n="role-doctor">Doctors</span>
+              <span class="role-tag" data-i18n="role-designer">Graphic Designers</span>
+              <span class="role-tag" data-i18n="role-worker">Social Workers</span>
+              <span class="role-tag" data-i18n="role-fundraiser">Fundraisers</span>
+              <span class="role-tag" data-i18n="role-photo">Photographers</span>
+              <span class="role-tag" data-i18n="role-translator">Translators</span>
+              <span class="role-tag" data-i18n="role-event">Event Managers</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteer Form CTA -->
+        <div class="volunteer-cta-card">
+          <div class="cta-icon">
+            <i class="fas fa-hands-helping fa-3x" aria-hidden="true"></i>
+          </div>
+          <h3 data-i18n="vol-cta-h">Ready to Make a Difference?</h3>
+          <p data-i18n="vol-cta-p">
+            Fill out our volunteer registration form and our team will contact you Shortly to
+            discuss how you can contribute best to our mission.
+          </p>
+
+          <!-- REPLACE: Update href with your actual Google Form link -->
+          <!-- Example: href="https://forms.google.com/your-form-link" -->
+          <a href="https://forms.gle/MH8azH8kuYmd1Eed7"
+            class="btn btn-primary btn-large"
+            id="volunteer-form-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Volunteer Registration Form">
+            <i class="fas fa-clipboard-list"></i>
+            <span data-i18n="vol-form-btn">Fill Volunteer Form</span>
+          </a>
+
+          <p class="form-note">
+            <i class="fas fa-info-circle"></i>
+            <span data-i18n="vol-form-note">You will be redirected to our secure Google Form.</span>
+          </p>
+
+          <!-- Contact for volunteering -->
+          <div class="volunteer-contact">
+            <p data-i18n="vol-contact-direct">Or contact us directly:</p>
+            <!-- REPLACE: Your volunteer coordinator's phone and email -->
+            <a href="tel:+919876543210" class="volunteer-phone">
+              <i class="fas fa-phone"></i> +91 6207999525
+            </a>
+            <a href="mailto:gvkdhanbad1@gmail.com" class="volunteer-email">
+              <i class="fas fa-envelope"></i> gvkdhanbad1@gmail.com
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: FEEDBACK & SUGGESTIONS (NEW)
+       EmailJS-ready form structure. To integrate EmailJS later:
+       1. Sign up at https://www.emailjs.com/
+       2. Add your Service ID, Template ID, and Public Key
+       3. Uncomment the EmailJS script in the <head>
+       4. Update the form's data-emailjs attributes
+       ============================================================ -->
+  <section id="feedback" class="section feedback-section" aria-label="Feedback and Suggestions Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="feedback-badge">We're Listening</span>
+        <h2 class="section-title" data-i18n="feedback-title">Feedback &amp; <span class="highlight">Suggestions</span></h2>
+        <p class="section-subtitle" data-i18n="feedback-subtitle">Your voice matters to us. Whether you have a question, suggestion, or feedback, please send us a message using the form below.</p>
+      </div>
+
+      <div class="feedback-grid">
+
+        <!-- Info Column -->
+        <div class="feedback-info">
+          <div class="feedback-info-item">
+            <div class="feedback-info-icon">
+              <i class="fas fa-comment-dots" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h4 data-i18n="feedback-info1-h">Share Your Thoughts</h4>
+              <p data-i18n="feedback-info1-p">Your suggestions help us serve the community better. We read every message.</p>
+            </div>
+          </div>
+          <div class="feedback-info-item">
+            <div class="feedback-info-icon">
+              <i class="fas fa-handshake" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h4 data-i18n="feedback-info2-h">Partnership Inquiries</h4>
+              <p data-i18n="feedback-info2-p">Interested in collaborating with us? Use this form to reach out to our team.</p>
+            </div>
+          </div>
+          <div class="feedback-info-item">
+            <div class="feedback-info-icon">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h4 data-i18n="feedback-info3-h">Quick Response</h4>
+              <p data-i18n="feedback-info3-p">We typically respond to all messages within 2–3 business working days.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feedback Form -->
+        <div class="feedback-form-wrap">
+          <!--
+            EMAILJS INTEGRATION (future):
+            1. Add this to <head>: <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+            2. Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', 'YOUR_PUBLIC_KEY' below
+            3. Uncomment the EmailJS init in script.js
+          -->
+          <form
+            id="feedbackForm"
+            class="feedback-form"
+            novalidate
+            data-emailjs-service="YOUR_SERVICE_ID"
+            data-emailjs-template="YOUR_TEMPLATE_ID"
+            data-emailjs-public-key="YOUR_PUBLIC_KEY"
+            aria-label="Feedback Form">
+
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="feedback-name" class="form-label" data-i18n="feedback-name-label">Full Name <span class="required">*</span></label>
+              <input
+                type="text"
+                id="feedback-name"
+                name="from_name"
+                class="form-control"
+                data-i18n-placeholder="feedback-name-ph"
+                placeholder="Enter your full name"
+                required
+                autocomplete="name"
+                aria-required="true" />
+              <span class="form-error" id="error-name" role="alert"></span>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+              <label for="feedback-email" class="form-label" data-i18n="feedback-email-label">Email Address <span class="required">*</span></label>
+              <input
+                type="email"
+                id="feedback-email"
+                name="reply_to"
+                class="form-control"
+                data-i18n-placeholder="feedback-email-ph"
+                placeholder="Enter your email address"
+                required
+                autocomplete="email"
+                aria-required="true" />
+              <span class="form-error" id="error-email" role="alert"></span>
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="feedback-subject" class="form-label" data-i18n="feedback-subject-label">Subject <span class="required">*</span></label>
+              <input
+                type="text"
+                id="feedback-subject"
+                name="subject"
+                class="form-control"
+                data-i18n-placeholder="feedback-subject-ph"
+                placeholder="What is your message about?"
+                required
+                aria-required="true" />
+              <span class="form-error" id="error-subject" role="alert"></span>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="feedback-message" class="form-label" data-i18n="feedback-message-label">Message <span class="required">*</span></label>
+              <textarea
+                id="feedback-message"
+                name="message"
+                class="form-control form-textarea"
+                data-i18n-placeholder="feedback-message-ph"
+                placeholder="Write your message here..."
+                rows="5"
+                required
+                aria-required="true"></textarea>
+              <span class="form-error" id="error-message" role="alert"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary feedback-submit-btn" id="feedbackSubmitBtn">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>
+              <span data-i18n="feedback-submit">Send Message</span>
+            </button>
+
+            <!-- Success / Error Message (shown by JS) -->
+            <div class="form-status" id="feedbackStatus" role="alert" aria-live="polite"></div>
+
+          </form>
+        </div><!-- /.feedback-form-wrap -->
+
+      </div><!-- /.feedback-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 8: CONTACT
+       ============================================================ -->
+  <section id="contact" class="section contact-section bg-light" aria-label="Contact Section">
+    <div class="container">
+
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="contact-badge">Get in Touch</span>
+        <h2 class="section-title" data-i18n="contact-title">Contact <span class="highlight">Us</span></h2>
+        <p class="section-subtitle" data-i18n="contact-subtitle">We'd love to hear from you. Reach out for partnerships, donations, or inquiries.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info Cards -->
+        <div class="contact-info-column">
+
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-i18n="contact-addr-h">Our Address</h4>
+              <!-- REPLACE: Your NGO's full address -->
+              <p>Gramin Vikas Kendra, Dhanbad<br />
+                Regd. office : Vill-Jainagar, P.0.-Murradih, Dist-Dhanbad Pin-826004 State-Jharkhand, India<br /></p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper phone">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-i18n="contact-phone-h">Phone Numbers</h4>
+              <!-- REPLACE: Your actual phone numbers -->
+              <p>
+                <a href="tel:+911234567890">7079633406 </a><br />
+                <a href="tel:+919876543210">6207999525</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper email">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-i18n="contact-email-h">Email Address</h4>
+              <!-- REPLACE: Your actual email addresses -->
+              <p>
+                <a href="mailto:gvkdhanbad1@gmail.com">gvkdhanbad1@gmail.com</a><br />
+                
+              </p>
+            </div>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="social-media-card">
+            <h4 data-i18n="contact-follow">Follow Us</h4>
+            <div class="social-links">
+              <!-- REPLACE: Add your actual social media profile URLs -->
+              <a href="https://facebook.com/YOUR_PAGE" class="social-link facebook" target="_blank"
+                rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com/YOUR_HANDLE" class="social-link instagram" target="_blank"
+                rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/YOUR_HANDLE" class="social-link twitter" target="_blank"
+                rel="noopener noreferrer" aria-label="Twitter / X">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://youtube.com/YOUR_CHANNEL" class="social-link youtube" target="_blank"
+                rel="noopener noreferrer" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://linkedin.com/company/YOUR_PAGE" class="social-link linkedin" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://wa.me/91XXXXXXXXXX" class="social-link whatsapp" target="_blank"
+                rel="noopener noreferrer" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Google Maps Embed Placeholder -->
+        <div class="map-column">
+          <!-- REPLACE: Embed your actual Google Maps iframe here -->
+          <!-- To get iframe: Go to Google Maps → Your location → Share → Embed a map → Copy HTML -->
+          <div class="map-placeholder" aria-label="Google Maps Placeholder">
+            <!-- <i class="fas fa-map-marked-alt fa-4x" aria-hidden="true"></i> -->
+            <h4 data-i18n="map-heading">Google Maps</h4>
+            
+            
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178.8968071792042!2d86.439813410531!3d23.871499515187725!2m3!1f332.6232550917269!2f44.99999999999937!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x39f6badd89ae1ac3%3A0x51f3786c8d79a982!2sVCFQ%2B6G7%2C%20Jainagar%2C%20Jharkhand%20826004!5e1!3m2!1sen!2sin!4v1783693455175!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="GVK NGO Location"> 
+            </iframe>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: FAQ (NEW)
+       To edit: Simply change the text inside each .faq-question
+       and .faq-answer. To add a new question, copy one .faq-item
+       block and paste it inside .faq-list.
+       ============================================================ -->
+  <section id="faq" class="section faq-section bg-light" aria-label="Frequently Asked Questions Section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-badge" data-i18n="faq-badge">Common Questions</span>
+        <h2 class="section-title" data-i18n="faq-title">Frequently Asked <span class="highlight">Questions</span></h2>
+        <p class="section-subtitle" data-i18n="faq-subtitle">Find answers to the most common questions about our work, volunteering, and donations.</p>
+      </div>
+
+      <div class="faq-list" id="faqList" role="list">
+
+        <!-- ====================================================
+             FAQ ITEM 1 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1" id="faq-btn-1">
+            <!-- REPLACE: Your FAQ question -->
+            <span data-i18n="faq1-q">How can I donate to Gramin Vikas Kendra, Dhanbad?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-btn-1">
+            <div class="faq-answer-inner">
+              <!-- REPLACE: Your FAQ answer -->
+              <p data-i18n="faq1-a">You can donate through UPI, Net Banking, or by scanning our QR code in the Donation section above. We also accept cheques in the name of "Gramin Vikash Kendra". All donations above ₹500 are eligible for 80G tax exemption.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================
+             FAQ ITEM 2 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2" id="faq-btn-2">
+            <span data-i18n="faq2-q">Is my donation eligible for tax exemption under Section 80G?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-btn-2">
+            <div class="faq-answer-inner">
+              <p data-i18n="faq2-a">Yes! GVK Dhanbad is registered under Section 80G of the Income Tax Act (Reg. No: AAAAG6642 DF20217). You will receive an official donation receipt that you can use to claim tax benefits when filing your income tax return.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================
+             FAQ ITEM 3 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3" id="faq-btn-3">
+            <span data-i18n="faq3-q">How can I become a volunteer with GVK?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-btn-3">
+            <div class="faq-answer-inner">
+              <p data-i18n="faq3-a">You can fill out our volunteer registration form available in the Volunteer section. Alternatively, you can call us at +91 6207999525 or email us at gvkdhanbad1@gmail.com. We welcome volunteers of all ages and skills — whether you're a teacher, doctor, social worker, or just passionate about helping others.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================
+             FAQ ITEM 4 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4" id="faq-btn-4">
+            <span data-i18n="faq4-q">What areas does GVK Dhanbad serve?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-4" role="region" aria-labelledby="faq-btn-4">
+            <div class="faq-answer-inner">
+              <p data-i18n="faq4-a">We primarily serve communities in the Dhanbad district of Jharkhand. Our programs extend across 8 districts covering rural and semi-urban areas, focusing on education, healthcare, women's empowerment, environmental conservation, and digital literacy.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================
+             FAQ ITEM 5 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5" id="faq-btn-5">
+            <span data-i18n="faq5-q">How are donations utilized by the organization?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-5" role="region" aria-labelledby="faq-btn-5">
+            <div class="faq-answer-inner">
+              <p data-i18n="faq5-a">All donations are used transparently for our community programs including education scholarships, free health camps, skill development workshops, tree plantation drives, and food aid. We maintain proper financial records and are happy to share annual reports upon request.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================
+             FAQ ITEM 6 — Edit the question and answer below
+             ==================================================== -->
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-6" id="faq-btn-6">
+            <span data-i18n="faq6-q">Can organizations or companies partner with GVK?</span>
+            <i class="fas fa-chevron-down faq-icon" aria-hidden="true"></i>
+          </button>
+          <div class="faq-answer" id="faq-answer-6" role="region" aria-labelledby="faq-btn-6">
+            <div class="faq-answer-inner">
+              <p data-i18n="faq6-a">Absolutely! We welcome CSR partnerships, institutional collaborations, and community programs. Please use the Feedback & Suggestions form above or contact us directly at gvkdhanbad1@gmail.com to discuss how we can work together for community benefit.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ADD MORE FAQ ITEMS HERE — copy a .faq-item block above -->
+
+      </div><!-- /.faq-list -->
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- Footer Brand Column -->
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <span class="logo-icon">🌱</span>
+              <!-- REPLACE: Your NGO name -->
+              <span>Gramin Vikas Kendra, Dhanbad</span>
+            </a>
+            <!-- REPLACE: Footer tagline -->
+            <p class="footer-tagline" data-i18n="footer-tagline">Empowering Communities, Changing Lives, Building Futures.</p>
+
+            <!-- REPLACE: Your NGO's registration details -->
+            <div class="footer-reg">
+              <p><strong data-i18n="footer-reg">Reg. No:</strong> 625/2008-09</p>
+              <p><strong data-i18n="footer-80g">80G Reg:</strong> AAAAG6642 DF20217</p>
+              <p><strong data-i18n="footer-12a">12A Reg:</strong> AAAAG6642 DE20219</p>
+            </div>
+
+            <div class="footer-social">
+              <!-- REPLACE: Social media URLs -->
+              <a href="https://facebook.com/YOUR_PAGE" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/YOUR_HANDLE" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/YOUR_HANDLE" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://youtube.com/YOUR_CHANNEL" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="footer-links-col">
+            <h4 class="footer-heading" data-i18n="footer-quick-links">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-home">Home</span></a></li>
+              <li><a href="#about"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-about">About Us</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-activities">Activities</span></a></li>
+              <li><a href="#events"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-events">Events</span></a></li>
+              <li><a href="#certificates"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-certificates">Certificates</span></a></li>
+              <li><a href="#team"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-team">Our Team</span></a></li>
+              <li><a href="#gallery"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-gallery">Gallery</span></a></li>
+              <li><a href="#partners"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-partners">Our Partners</span></a></li>
+              <li><a href="#featured"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-featured">Featured In</span></a></li>
+              <li><a href="#donate"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-donate">Donate</span></a></li>
+              <li><a href="#volunteer"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-volunteer">Volunteer</span></a></li>
+               <li><a href="#feedback"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-feedback">Suggestions</span></a></li>
+              <li><a href="#contact"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-contact">Contact</span></a></li>
+               <li><a href="#faq"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-faq">FAQs</span></a></li>
+            </ul>
+          </div>
+
+          <!-- Programs Column -->
+          <div class="footer-links-col">
+            <h4 class="footer-heading" data-i18n="footer-programs">Our Programs</h4>
+            <ul class="footer-links">
+              <!-- REPLACE: Your actual programs -->
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog1">Education Program</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog2">Health Camps</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog3">Women Empowerment</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog4">Green Earth Drive</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog5">Food Aid Program</span></a></li>
+              <li><a href="#activities"><i class="fas fa-chevron-right"></i> <span data-i18n="footer-prog6">Digital Literacy</span></a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-contact-col">
+            <h4 class="footer-heading" data-i18n="footer-contact-info">Contact Info</h4>
+            <ul class="footer-contact-list">
+              <!-- REPLACE: Your actual contact info -->
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Vill-Jainagar, P.0.-Murradih, Dist-Dhanbad Pin-826004 Jharkhand , India</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+911234567890">6207999525</a>,<a href="tel:7079633406">7079633406</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:gvkdhanbad1@gmail.com">gvkdhanbad1@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+                <!-- REPLACE: Your domain once deployed -->
+                <a href="#">www.gvkdhanbad.org</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <!-- REPLACE: Your NGO name and year -->
+          <p>&copy; <span id="currentYear"></span> Gramin Vikas Kendra, Dhanbad. All Rights Reserved.</p>
+          <p class="footer-credit">
+            Registered NGO | Non-Profit Organization | 80G & 12A Certified
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       SCROLL TO TOP BUTTON
+       ============================================================ -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+
+  <!-- ============================================================
+       LIGHTBOX OVERLAY (for gallery)
+       ============================================================ -->
+  <div class="lightbox-overlay" id="lightboxOverlay" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="lightbox-content" id="lightboxContent">
+      <!-- Dynamically loaded by JS -->
+    </div>
+  </div>
+
+
+  <!-- Main JavaScript -->
+  <!-- Language Translation System — must load BEFORE script.js -->
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
